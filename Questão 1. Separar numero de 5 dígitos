@@ -1,0 +1,17 @@
+ //declaração de variaveis 
+   inteiro: numero;
+   inteiro: n1, n2, n3, n4, n5;
+
+ //entrada de dados 
+   escreva("Digite um número de 5 dígitos: ");
+   leia(numero);
+
+ //processamento
+   n1 <- numero div 10000;
+   n2 <- (numero div 1000) mod 10;
+   n3 <- (numero div 100) mod 10;
+   n4 <- (numero div 10) mod 10;
+   n5 <- numero mod 10;
+
+ // saida de dados
+   escreval(n1, "   ", n2, "   ", n3, "   ", n4, "   ", n5);
