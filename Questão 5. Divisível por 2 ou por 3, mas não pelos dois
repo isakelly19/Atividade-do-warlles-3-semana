@@ -1,0 +1,9 @@
+   inteiro: numero;
+
+   escreva("Digite um numero inteiro: ");
+   leia(numero);
+
+   se (numero mod 2 = 0 e numero mod 3 <> 0) ou (numero mod 3 = 0 e numero mod 2 <> 0) entao
+      escreval("O numero atende a condicao.");
+   senao
+      escreval("O numero NAO atende a condicao.");
