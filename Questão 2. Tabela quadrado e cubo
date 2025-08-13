@@ -1,0 +1,10 @@
+   inteiro: i;
+   inteiro: quadrado;
+   inteiro: cubo;
+
+   escreva("Numero", "\t", "Quadrado", "\t", "Cubo");
+
+   para i de 0 ate 10 faca
+      quadrado <- i * i
+      cubo <- i * i * i
+      escreva(i, "\t", quadrado, "\t\t", cubo)
